@@ -160,3 +160,55 @@ Testing artifacts include:
 See detailed testing documentation here:
 
 [View Testing Documentation](testing/README.md)
+
+## Business Analysis & Documentation
+
+This project includes business analysis, system modeling, database design, and software testing documentation developed during the analysis and design process.
+
+### Requirements
+
+- Requirement Gathering & Analysis
+- Functional Requirements
+- Non-functional Requirements
+- Requirement Elicitation through Interviews and Surveys
+
+[View Requirements Documentation](docs/report/requirements.md)
+
+[View Requirement Elicitation](docs/report/requirement-elicitation.md)
+
+### System Modeling
+
+The system was modeled using UML diagrams, including:
+
+- Use Case Diagram
+- Activity Diagrams
+- Sequence Diagrams
+- Class Diagram
+- State Diagrams
+
+[View System Diagrams](diagrams/)
+
+### Database Design
+
+The system uses MySQL and includes database documentation covering tables, attributes, keys, constraints, and data structures.
+
+[View Database Design](docs/report/database-design.md)
+
+### Testing
+
+Core functionalities such as Login, Registration, and Search were tested using:
+
+- Decision Tables
+- Test Cases
+- Test Scenarios
+- Expected Results
+- Actual Results
+- Pass/Fail Status
+
+[View Testing Documentation](testing/README.md)
+
+### Full Documentation
+
+[View Project Documentation](docs/report/README.md)
+
+[View Full Project Report](docs/report/ShopDunk_Project_Report.pdf)
