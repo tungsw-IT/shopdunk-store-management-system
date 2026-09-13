@@ -31,3 +31,15 @@ The system database consists of the following main tables:
 8. Operations_tasks
 9. Paymentbill
 10. Reviews
+
+### 1. Accounts
+
+| Field | Data Type | Constraint | Description |
+|---|---|---|---|
+| account_id | INT | Primary Key, AI | Unique account identifier |
+| accounts_name | VARCHAR(255) | NULL | User name |
+| email | VARCHAR(255) | Unique, Not Null | Email address used for login |
+| phone | VARCHAR(20) | Not Null | Contact phone number |
+| password | VARCHAR(255) | Not Null | Hashed password |
+| reset_code | VARCHAR(10) | NULL | Password recovery code |
+| created_at | TIMESTAMP | DEFAULT CURRENT_TIMESTAMP | Account creation time |
