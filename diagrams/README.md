@@ -103,3 +103,8 @@ This diagram illustrates the lifecycle and state transitions of an import receip
 This diagram illustrates the lifecycle and state transitions of an order within the ShopDunk store management system.
 
 ![Order State Diagram](state-order.png)
+### Cart State Diagram
+
+This diagram illustrates the lifecycle and state transitions of a shopping cart within the ShopDunk store management system.
+
+![Cart State Diagram](state-cart.png)
