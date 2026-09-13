@@ -1,257 +1,296 @@
-# 📱 ShopDunk Store Management System
-
 # ShopDunk Store Management System
 
 > Business Analysis • System Analysis • UML • Database Design • Software Testing
 
 A system analysis and design project for managing the business processes of a mobile phone retail store.
 
-The project focuses on analyzing business requirements, modeling system processes, designing the database, and validating core functionalities through software testing.
+The project focuses on requirement analysis, business process modeling, system design, database design, and software testing.
+
+---
 
 ## Project Overview
 
-The ShopDunk Store Management System supports major retail store operations, including:
+The ShopDunk Store Management System is designed to support the main business processes of a mobile phone retail store.
 
-- Account and customer management
+The system covers:
+
+- User authentication and account management
+- Customer management
+- Employee management
 - Product and brand management
-- Inventory management
+- Supplier management
+- Inventory and import management
 - Shopping cart management
-- Order and sales management
-- Invoice and payment processing
+- Order management
+- Invoice creation and sales management
+- Payment processing
 - Warranty and repair management
 - Product reviews
-- Sales monitoring and reporting
 - Product search
+- Sales monitoring and reporting
+
+---
 
 ## My Focus
 
-This project demonstrates practical knowledge in:
+Through this project, I participated in system analysis and design activities including:
 
-- Business Requirement Analysis
-- Requirement Elicitation
-- Functional & Non-functional Requirements
-- UML Modeling
-- Database Design
-- Test Case & Test Scenario Design
-- Manual Testing
-- Software Development Lifecycle
-
-## Technologies & Tools
-
-- **Database:** MySQL
-- **Modeling:** UML
-- **Testing:** Test Case, Test Scenario, Decision Table
-- **Documentation:** SRS / Requirement Documentation
-- **Version Control:** Git & GitHub
-## 📌 Project Overview
-
-ShopDunk Store Management System is an individual academic project 
-for analyzing, designing, developing, and testing a web-based mobile 
-phone store management system.
-
-The system is designed to support store operations, automate business 
-processes, reduce data management errors, and improve operational efficiency.
-
----
-## 📄 Project Report
-
-You can view the full project documentation here:
-
-👉 [View Full ShopDunk Project Report](docs/report/ShopDunk_Project_Report.pdf)
-
-## 🎯 Project Objectives
-
-- Analyze requirements and business processes of a mobile phone store.
-- Design a complete store management system.
-- Manage products, customers, employees, sales, inventory, and payments.
-- Design and manage system data.
-- Support revenue reporting and statistics.
-- Perform software testing to validate system functions.
+- Requirement gathering and analysis
+- Stakeholder interviews and customer surveys
+- Functional and non-functional requirement analysis
+- Requirement clarification
+- Use Case analysis
+- UML system modeling
+- Database design
+- Test Case and Test Scenario design
+- Functional testing
+- System documentation
 
 ---
 
-## 🚀 Main Features
+## Business Analysis Process
 
-- Product Management
-- Customer Management
-- Employee Management
-- Sales Management
-- Invoice Management
-- Inventory Management
-- Payment Management
-- Revenue Reports & Statistics
+The project followed an analysis and design process:
 
----
+**Requirement Elicitation → Requirement Analysis → Functional & Non-functional Requirements → Use Case Analysis → UML Modeling → Database Design → Testing**
 
-## 📊 Business & System Analysis
+### Requirement Elicitation
 
-- Requirement Gathering
-- Requirement Analysis
-- Functional Requirements
-- Non-functional Requirements
-- Software Requirements Specification (SRS)
-- Business Process Analysis
-- Actor & Use Case Identification
+Requirements were collected using:
 
-### UML Modeling
-- Use Case Diagram
-- Activity Diagram
-- Sequence Diagram
-- Class Diagram
-- State Diagram
+- Interviews
+- Customer surveys
+- Business process analysis
+- Requirement clarification
+
+### Requirement Analysis
+
+The collected information was analyzed to identify:
+
+- System actors
+- Business processes
+- Functional requirements
+- Non-functional requirements
+- System functions
+- Data requirements
 
 ---
 
-## 🗄️ Database & Data
+## Key BA Deliverables
 
-- Database Analysis & Design
-- Entity Relationship Diagram (ERD)
-- Relational Database Design
-- Primary Key / Foreign Key
-- Data Relationships
-- SQL
-- MySQL
+The project includes the following Business Analysis and System Analysis artifacts:
 
-The database supports the management and processing of data related to 
-products, customers, employees, sales, inventory, payments, and revenue.
-
----
-
-## 💻 System Development
-
-- Web Application Development
-- Object-Oriented Programming (OOP)
-- MVC Architecture
-- Business Logic Implementation
-- Database Integration
-- Data Processing
-- CRUD Operations
+| Deliverable | Description |
+|---|---|
+| Requirement Documentation | Functional and non-functional requirements |
+| Requirement Elicitation | Interviews, surveys and requirement clarification |
+| Use Case Diagram | System actors and major system functions |
+| Activity Diagrams | Business and system process flows |
+| Sequence Diagrams | Interaction between actors and system components |
+| Class Diagram | Main classes and system structure |
+| State Diagrams | Object states and state transitions |
+| Database Design | Database tables, attributes, keys and constraints |
+| Decision Tables | Testing conditions and expected system behavior |
+| Test Cases | Functional testing scenarios and expected results |
+| Project Report | Complete analysis and system design documentation |
 
 ---
 
-## 🧪 Software Testing
+## UML & System Modeling
 
-- Test Case Design
-- Test Scenario Design
-- Functional Testing
-- Positive & Negative Test Cases
-- Expected Result / Actual Result
-- System Function Validation
+The project contains UML diagrams used to model system requirements and behavior.
 
-Testing was performed on key functions such as:
+### Use Case Diagram
+
+The Use Case Diagram describes the main actors and functions of the system.
+
+[View Use Case Diagram](diagrams/use-case-overview.png)
+
+### Activity Diagrams
+
+Activity Diagrams describe the workflow of important system functions, including:
+
 - Login
-- Registration
-- Product Search
+- Cart Management
+- Sales Monitoring
+- Invoice Creation
+- Order Confirmation
+
+[View Activity Diagrams](diagrams/)
+
+### Sequence Diagrams
+
+Sequence Diagrams describe interactions between actors and system components for:
+
+- Login
+- Cart Management
+- Sales Monitoring
+- Invoice Creation
+- Order Confirmation
+
+[View Sequence Diagrams](diagrams/)
+
+### Class Diagram
+
+The Class Diagram illustrates the main classes, attributes, relationships, and structure of the system.
+
+[View Class Diagram](diagrams/class-diagram.png)
+
+### State Diagrams
+
+State Diagrams were created for major system entities:
+
+- Supplier
+- Account
+- Product
+- Import Receipt
+- Order
+- Cart
+- Repair Ticket
+
+[View State Diagrams](diagrams/)
 
 ---
 
-## 📈 Reporting & Data
+## Database Design
 
-The system supports business data management and reporting, including:
+The project uses **MySQL** for relational data management.
 
-- Sales Data
-- Product Data
-- Customer Data
-- Inventory Data
-- Payment Data
-- Revenue Statistics
+Database documentation includes:
 
----
+- Database tables
+- Attributes
+- Data types
+- Primary keys
+- Foreign keys
+- Constraints
+- Data descriptions
 
-## 📂 Project Structure
+Main documented tables include:
 
-shopdunk-store-management-system/
-│
-├── README.md
-│
-├── docs/
-│   ├── requirements/
-│   ├── uml/
-│   └── testing/
-│
-├── database/
-│   ├── erd/
-│   └── sql/
-│
-├── source-code/
-│
-├── ui/
-│
-└── images/
-
----
-
-## 👨‍💻 Project Information
-
-**Project Type:** Individual Academic Project  
-**Role:** System Analyst & Developer  
-**Domain:** Mobile Phone Store Management  
-**Application Type:** Web Application
-
-## Testing Documentation
-
-The project includes testing documentation for core functionalities such as Login, Registration, and Search.
-
-Testing artifacts include:
-
-- Decision Tables
-- Test Cases
-- Expected Results
-- Actual Results
-- Pass/Fail Status
-
-See detailed testing documentation here:
-
-[View Testing Documentation](testing/README.md)
-
-## Business Analysis & Documentation
-
-This project includes business analysis, system modeling, database design, and software testing documentation developed during the analysis and design process.
-
-### Requirements
-
-- Requirement Gathering & Analysis
-- Functional Requirements
-- Non-functional Requirements
-- Requirement Elicitation through Interviews and Surveys
-
-[View Requirements Documentation](docs/report/requirements.md)
-
-[View Requirement Elicitation](docs/report/requirement-elicitation.md)
-
-### System Modeling
-
-The system was modeled using UML diagrams, including:
-
-- Use Case Diagram
-- Activity Diagrams
-- Sequence Diagrams
-- Class Diagram
-- State Diagrams
-
-[View System Diagrams](diagrams/)
-
-### Database Design
-
-The system uses MySQL and includes database documentation covering tables, attributes, keys, constraints, and data structures.
+1. Accounts
+2. Admin
+3. Blog
+4. Brands
+5. Cart
+6. Customer
+7. Mobile
+8. Operations_tasks
+9. Paymentbill
+10. Reviews
 
 [View Database Design](docs/report/database-design.md)
 
-### Testing
+---
 
-Core functionalities such as Login, Registration, and Search were tested using:
+## Software Testing
+
+Testing documentation was created for core system functionalities.
+
+### Functions Tested
+
+- Login
+- Registration
+- Search
+
+### Testing Artifacts
+
+The testing documentation includes:
 
 - Decision Tables
 - Test Cases
 - Test Scenarios
+- Test Data
 - Expected Results
 - Actual Results
 - Pass/Fail Status
 
 [View Testing Documentation](testing/README.md)
 
-### Full Documentation
+---
 
-[View Project Documentation](docs/report/README.md)
+## Technologies & Tools
 
-[View Full Project Report](docs/report/ShopDunk_Project_Report.pdf)
+| Category | Technologies / Methods |
+|---|---|
+| Database | MySQL |
+| System Modeling | UML |
+| Requirements | Requirement Analysis, Functional & Non-functional Requirements |
+| Testing | Test Case, Test Scenario, Decision Table, Functional Testing |
+| Documentation | Requirement Documentation, System Analysis Documentation |
+| Version Control | Git, GitHub |
+
+---
+
+## Project Structure
+
+```text
+shopdunk-store-management-system/
+│
+├── diagrams/
+│   ├── use-case-overview.png
+│   ├── activity-*.png
+│   ├── sequence-*.png
+│   ├── class-diagram.png
+│   └── state-*.png
+│
+├── docs/
+│   └── report/
+│       ├── README.md
+│       ├── requirements.md
+│       ├── requirement-elicitation.md
+│       ├── database-design.md
+│       └── ShopDunk_Project_Report.pdf
+│
+├── testing/
+│   ├── README.md
+│   ├── decision-table-*.png
+│   └── test-case-*.png
+│
+└── README.md
+```
+
+---
+
+## Documentation
+
+Detailed project documentation is available below:
+
+| Documentation | Link |
+|---|---|
+| System Requirements | [View](docs/report/requirements.md) |
+| Requirement Elicitation | [View](docs/report/requirement-elicitation.md) |
+| Database Design | [View](docs/report/database-design.md) |
+| UML Diagrams | [View](diagrams/) |
+| Testing Documentation | [View](testing/README.md) |
+| Documentation Index | [View](docs/report/README.md) |
+| Full Project Report | [View PDF](docs/report/ShopDunk_Project_Report.pdf) |
+
+---
+
+## Project Highlights
+
+This project demonstrates knowledge and practical application of:
+
+- Business requirement analysis
+- Requirement elicitation
+- Functional and non-functional requirements
+- UML modeling
+- Business process analysis
+- Relational database design
+- Software testing
+- Test Case design
+- Technical documentation
+- System analysis and design
+
+---
+
+## Academic Project
+
+This project was developed as part of the **Information Systems Analysis and Design** coursework.
+
+**Major:** Information Systems  
+**University:** University of Transport Technology  
+**Year:** 2026
+
+The project was developed for academic and learning purposes.
