@@ -7,7 +7,7 @@ The testing process includes test design, decision tables, test cases, expected 
 ## Login Testing
 
 ### Decision Table
-![Login Decision Table](decision-table-login.png)
+![Login Decision Table](decision-table-login.png.png)
 
 ### Valid Login Test Case
 ![Login Test Case](test-case-login.png)
