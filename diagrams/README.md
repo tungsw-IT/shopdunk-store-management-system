@@ -65,3 +65,11 @@ This diagram illustrates the interactions between system components during the o
 This diagram illustrates the interactions between the customer, cart, inventory, and system components during the cart management process.
 
 ![Cart Management Sequence Diagram](sequence-cart-management.png)
+
+## System Design Diagrams
+
+### Class Diagram
+
+This diagram illustrates the main classes, attributes, relationships, and structure of the ShopDunk store management system.
+
+![Class Diagram](class-diagram.png)
