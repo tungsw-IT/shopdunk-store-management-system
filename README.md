@@ -268,6 +268,7 @@ Detailed project documentation is available below:
 | Use Case Specification | [View](docs/report/use-case-specification.md) |
 | Business Rules | [View](docs/report/business-rules.md) |
 | Stakeholder Analysis | [View](docs/report/stakeholder-analysis.md) |
+| Functional Requirements | [View](docs/report/functional-requirements.md) |
 
 ---
 
