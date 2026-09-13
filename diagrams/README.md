@@ -21,3 +21,8 @@ The diagram below illustrates the login process, including credential validation
 This diagram illustrates how customers update product quantities, remove items, and how the system validates inventory and recalculates the cart total.
 
 ![Cart Management Activity Diagram](activity-cart-management.png)
+### Sales Monitoring Activity Diagram
+
+This diagram illustrates the process of monitoring sales performance through dashboard data, KPIs, sales reports, and business indicators.
+
+![Sales Monitoring Activity Diagram](activity-sales-monitoring.png)
