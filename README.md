@@ -10,6 +10,11 @@ The system is designed to support store operations, automate business
 processes, reduce data management errors, and improve operational efficiency.
 
 ---
+## 📄 Project Report
+
+You can view the full project documentation here:
+
+👉 [View Full ShopDunk Project Report](docs/report/ShopDunk_Project_Report.pdf)
 
 ## 🎯 Project Objectives
 
