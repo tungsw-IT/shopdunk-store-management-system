@@ -73,3 +73,11 @@ This diagram illustrates the interactions between the customer, cart, inventory,
 This diagram illustrates the main classes, attributes, relationships, and structure of the ShopDunk store management system.
 
 ![Class Diagram](class-diagram.png)
+
+## State Diagrams
+
+### Supplier State Diagram
+
+This diagram illustrates the lifecycle and state transitions of a supplier within the ShopDunk store management system.
+
+![Supplier State Diagram](state-supplier.png)
