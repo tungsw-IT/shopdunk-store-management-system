@@ -17,3 +17,17 @@ The project uses MySQL as the database management system.
 ## Database Tables
 
 The detailed database tables, attributes, primary keys, foreign keys, and relationships are documented in the following sections.
+### Database Table List
+
+The system database consists of the following main tables:
+
+1. Accounts
+2. Admin
+3. Blog
+4. Brands
+5. Cart
+6. Customer
+7. Mobile
+8. Operations_tasks
+9. Paymentbill
+10. Reviews
