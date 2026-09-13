@@ -32,3 +32,4 @@ Testing artifacts are available in:
 
 [View Testing Documentation](../../testing/README.md)
 - [Use Case Specification](use-case-specification.md)
+- [Business Rules](business-rules.md)
