@@ -31,3 +31,4 @@ System diagrams are available in:
 Testing artifacts are available in:
 
 [View Testing Documentation](../../testing/README.md)
+- [Use Case Specification](use-case-specification.md)
