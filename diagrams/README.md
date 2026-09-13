@@ -87,3 +87,9 @@ This diagram illustrates the lifecycle and state transitions of a supplier withi
 This diagram illustrates the lifecycle and state transitions of a user account within the ShopDunk store management system.
 
 ![Account State Diagram](state-account.png)
+
+### Product State Diagram
+
+This diagram illustrates the lifecycle and state transitions of a product within the ShopDunk store management system.
+
+![Product State Diagram](state-product.png)
