@@ -27,3 +27,8 @@ This diagram illustrates the process of monitoring sales performance through das
 
 ![Sales Monitoring Activity Diagram](activity-sales-monitoring.png)
 
+### Order Confirmation Activity Diagram
+
+This diagram illustrates the order confirmation process, including order review, payment information verification, inventory update, and order status processing.
+
+![Order Confirmation Activity Diagram](activity-order-confirmation.png)
