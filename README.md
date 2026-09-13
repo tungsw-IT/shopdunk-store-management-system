@@ -269,6 +269,7 @@ Detailed project documentation is available below:
 | Business Rules | [View](docs/report/business-rules.md) |
 | Stakeholder Analysis | [View](docs/report/stakeholder-analysis.md) |
 | Functional Requirements | [View](docs/report/functional-requirements.md) |
+| Non-functional Requirements | [View](docs/report/non-functional-requirements.md) |
 
 ---
 
