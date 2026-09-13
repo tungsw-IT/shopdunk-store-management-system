@@ -144,3 +144,19 @@ shopdunk-store-management-system/
 **Role:** System Analyst & Developer  
 **Domain:** Mobile Phone Store Management  
 **Application Type:** Web Application
+
+## Testing Documentation
+
+The project includes testing documentation for core functionalities such as Login, Registration, and Search.
+
+Testing artifacts include:
+
+- Decision Tables
+- Test Cases
+- Expected Results
+- Actual Results
+- Pass/Fail Status
+
+See detailed testing documentation here:
+
+[View Testing Documentation](testing/README.md)
