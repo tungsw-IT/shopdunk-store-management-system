@@ -1,5 +1,48 @@
 # 📱 ShopDunk Store Management System
 
+# ShopDunk Store Management System
+
+> Business Analysis • System Analysis • UML • Database Design • Software Testing
+
+A system analysis and design project for managing the business processes of a mobile phone retail store.
+
+The project focuses on analyzing business requirements, modeling system processes, designing the database, and validating core functionalities through software testing.
+
+## Project Overview
+
+The ShopDunk Store Management System supports major retail store operations, including:
+
+- Account and customer management
+- Product and brand management
+- Inventory management
+- Shopping cart management
+- Order and sales management
+- Invoice and payment processing
+- Warranty and repair management
+- Product reviews
+- Sales monitoring and reporting
+- Product search
+
+## My Focus
+
+This project demonstrates practical knowledge in:
+
+- Business Requirement Analysis
+- Requirement Elicitation
+- Functional & Non-functional Requirements
+- UML Modeling
+- Database Design
+- Test Case & Test Scenario Design
+- Manual Testing
+- Software Development Lifecycle
+
+## Technologies & Tools
+
+- **Database:** MySQL
+- **Modeling:** UML
+- **Testing:** Test Case, Test Scenario, Decision Table
+- **Documentation:** SRS / Requirement Documentation
+- **Version Control:** Git & GitHub
 ## 📌 Project Overview
 
 ShopDunk Store Management System is an individual academic project 
