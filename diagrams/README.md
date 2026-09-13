@@ -26,4 +26,4 @@ This diagram illustrates how customers update product quantities, remove items, 
 This diagram illustrates the process of monitoring sales performance through dashboard data, KPIs, sales reports, and business indicators.
 
 ![Sales Monitoring Activity Diagram](activity-sales-monitoring.png)
-Add invoice creation activity diagram
+
