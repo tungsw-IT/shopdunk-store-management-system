@@ -271,6 +271,7 @@ Detailed project documentation is available below:
 | Functional Requirements | [View](docs/report/functional-requirements.md) |
 | Non-functional Requirements | [View](docs/report/non-functional-requirements.md) |
 | System Risks | [View](docs/report/system-risks.md) |
+| Future Development | [View](docs/report/future-development.md) |
 
 ---
 
