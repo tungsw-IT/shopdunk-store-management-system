@@ -108,3 +108,8 @@ This diagram illustrates the lifecycle and state transitions of an order within 
 This diagram illustrates the lifecycle and state transitions of a shopping cart within the ShopDunk store management system.
 
 ![Cart State Diagram](state-cart.png)
+### Repair Ticket State Diagram
+
+This diagram illustrates the lifecycle and state transitions of a repair ticket within the ShopDunk store management system.
+
+![Repair Ticket State Diagram](state-repair-ticket.png)
