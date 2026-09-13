@@ -36,6 +36,8 @@ This diagram illustrates the order confirmation process, including order review,
 
 ### Login Sequence Diagram
 
+
+
 This diagram illustrates the interaction between the user and system components during the login process.
 
 ![Login Sequence Diagram](sequence-login.png)
@@ -51,3 +53,9 @@ This diagram illustrates the interactions between system components during the s
 This diagram illustrates the interaction between system components during the invoice creation process.
 
 ![Invoice Creation Sequence Diagram](sequence-invoice-creation.png)
+
+### Order Confirmation Sequence Diagram
+
+This diagram illustrates the interactions between system components during the order confirmation process.
+
+![Order Confirmation Sequence Diagram](sequence-order-confirmation.png)
