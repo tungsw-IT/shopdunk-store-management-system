@@ -34,3 +34,4 @@ Testing artifacts are available in:
 - [Use Case Specification](use-case-specification.md)
 - [Business Rules](business-rules.md)
 - [Stakeholder Analysis](stakeholder-analysis.md)
+- [Functional Requirements](functional-requirements.md)
