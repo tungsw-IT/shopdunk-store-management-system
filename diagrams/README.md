@@ -39,3 +39,9 @@ This diagram illustrates the order confirmation process, including order review,
 This diagram illustrates the interaction between the user and system components during the login process.
 
 ![Login Sequence Diagram](sequence-login.png)
+
+### Sales Monitoring Sequence Diagram
+
+This diagram illustrates the interactions between system components during the sales monitoring process, including data retrieval, KPI analysis, and report display.
+
+![Sales Monitoring Sequence Diagram](sequence-sales-monitoring.png)
