@@ -81,3 +81,9 @@ This diagram illustrates the main classes, attributes, relationships, and struct
 This diagram illustrates the lifecycle and state transitions of a supplier within the ShopDunk store management system.
 
 ![Supplier State Diagram](state-supplier.png)
+
+### Account State Diagram
+
+This diagram illustrates the lifecycle and state transitions of a user account within the ShopDunk store management system.
+
+![Account State Diagram](state-account.png)
