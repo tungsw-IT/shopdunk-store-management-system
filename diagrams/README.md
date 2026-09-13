@@ -32,3 +32,10 @@ This diagram illustrates the process of monitoring sales performance through das
 This diagram illustrates the order confirmation process, including order review, payment information verification, inventory update, and order status processing.
 
 ![Order Confirmation Activity Diagram](activity-order-confirmation.png)
+## Sequence Diagrams
+
+### Login Sequence Diagram
+
+This diagram illustrates the interaction between the user and system components during the login process.
+
+![Login Sequence Diagram](sequence-login.png)
