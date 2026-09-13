@@ -36,3 +36,4 @@ Testing artifacts are available in:
 - [Stakeholder Analysis](stakeholder-analysis.md)
 - [Functional Requirements](functional-requirements.md)
 - [Non-functional Requirements](non-functional-requirements.md)
+- [System Risks](system-risks.md)
