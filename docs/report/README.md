@@ -35,3 +35,4 @@ Testing artifacts are available in:
 - [Business Rules](business-rules.md)
 - [Stakeholder Analysis](stakeholder-analysis.md)
 - [Functional Requirements](functional-requirements.md)
+- [Non-functional Requirements](non-functional-requirements.md)
