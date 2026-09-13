@@ -266,6 +266,7 @@ Detailed project documentation is available below:
 | Documentation Index | [View](docs/report/README.md) |
 | Full Project Report | [View PDF](docs/report/ShopDunk_Project_Report.pdf) |
 | Use Case Specification | [View](docs/report/use-case-specification.md) |
+| Business Rules | [View](docs/report/business-rules.md) |
 
 ---
 
