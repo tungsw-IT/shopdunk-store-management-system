@@ -59,3 +59,9 @@ This diagram illustrates the interaction between system components during the in
 This diagram illustrates the interactions between system components during the order confirmation process.
 
 ![Order Confirmation Sequence Diagram](sequence-order-confirmation.png)
+
+### Cart Management Sequence Diagram
+
+This diagram illustrates the interactions between the customer, cart, inventory, and system components during the cart management process.
+
+![Cart Management Sequence Diagram](sequence-cart-management.png)
