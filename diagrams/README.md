@@ -93,3 +93,8 @@ This diagram illustrates the lifecycle and state transitions of a user account w
 This diagram illustrates the lifecycle and state transitions of a product within the ShopDunk store management system.
 
 ![Product State Diagram](state-product.png)
+### Import Receipt State Diagram
+
+This diagram illustrates the lifecycle and state transitions of an import receipt within the ShopDunk store management system.
+
+![Import Receipt State Diagram](state-import-receipt.png)
