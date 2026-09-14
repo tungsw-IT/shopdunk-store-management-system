@@ -56,6 +56,37 @@ The system covers:
 ### Admin Dashboard
 ![Admin Dashboard](screenshots/admin-dashboard.png)
 
+## Source Code
+
+The repository includes the source code of the ShopDunk Store Management System.
+
+The implementation demonstrates how the analyzed requirements and system designs are applied to a working application.
+
+### Main Technologies
+
+- PHP
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- RESTful API
+- Git / GitHub
+
+---
+
+## Project Structure
+
+```text
+shopdunk-store-management-system/
+│
+├── src/                 # Application source code
+├── screenshots/         # System demo screenshots
+├── diagrams/            # UML diagrams
+├── docs/
+│   └── report/          # BA & system documentation
+├── testing/             # Test cases and decision tables
+│
+└── README.md
 ## My Focus
 
 Through this project, I participated in system analysis and design activities including:
