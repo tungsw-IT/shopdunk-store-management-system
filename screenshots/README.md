@@ -1,3 +1,25 @@
-# System Screenshots
+## System Demo
 
-This folder contains screenshots of the main interfaces and functions of the ShopDunk Store Management System.
+### Login
+![Login](screenshots/login.png)
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Product Detail
+![Product Detail](screenshots/product-detail.png)
+
+### Search
+![Search](screenshots/search.png)
+
+### Shopping Cart
+![Shopping Cart](screenshots/cart.png)
+
+### Checkout / Payment
+![Checkout](screenshots/checkout.png)
+
+### Repair Request
+![Repair Request](screenshots/repair-request.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
