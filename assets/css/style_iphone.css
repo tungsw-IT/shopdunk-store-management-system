@@ -1,0 +1,271 @@
+.logo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #ebe9e9;
+}
+
+.logo-bar .logo {
+  height: 30px;
+  width: auto;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #070000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==== Banner ==== */
+.banner-container {
+  position: relative;
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.banner-gif {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  pointer-events: none;
+}
+
+.banner-text h1 {
+  font-size: 100px;
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin-top: 8px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* ==== Filter Bar ==== */
+.filter-bar {
+  margin: 20px 30px;
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+}
+
+.filter-bar .tab {
+  color: #666;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter-bar .tab:hover {
+  background-color: #f0f0f0;
+  color: #ff6700;
+  box-shadow: 0 4px 8px rgb(255 103 0 / 0.3);
+}
+
+.filter-bar .tab.active {
+  color: #ff6700;
+  background-color: #ffe6cc;
+  box-shadow: 0 4px 10px rgb(255 103 0 / 0.5);
+  font-weight: 700;
+}
+
+/* ==== Product Grid ==== */
+.product-area-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 30px;
+  border-radius: 12px;
+  width: auto;
+  max-width: 100%;
+  justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+}
+
+.product-card-link {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ==== Product Card (Đã chỉnh màu, căn giữa, nền, sao...) ==== */
+.product-card {
+  background: #ffffff !important;
+  color: #1d1d1f;
+  padding: 22px 16px 20px 16px;
+  border-radius: 22px !important;
+  border: 1px solid #edf0f5;
+  box-shadow: 0 8px 28px 0 rgba(15, 23, 42, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.product-card:hover {
+  transform: translateY(-8px) scale(1.025);
+  box-shadow: 0 14px 36px 0 rgba(15, 23, 42, 0.12);
+}
+
+.product-card img {
+  width: 90%;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 auto 16px auto;
+  display: block;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 8px 0;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 10px 0 8px 0;
+  font-weight: 600;
+  color: #1d1d1f;
+  text-align: center;
+}
+
+.product-card .sub {
+  font-size: 15px;
+  color: #6e6e73;
+  margin-bottom: 14px;
+  display: block;
+  text-align: center;
+}
+
+/* ==== Rating ==== */
+.rating-stars {
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 24px;
+}
+.rating-stars i {
+  font-size: 24px;
+  margin-right: 2px;
+  color: #ffc107;
+  text-shadow: 0 1px 3px #0005;
+  vertical-align: middle;
+}
+.rating-stars i.empty-star {
+  color: #bdbdbd !important;
+  text-shadow: none;
+}
+
+/* ==== Giá ==== */
+.product-card .price {
+  color: #0a65cc !important;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 6px 0 0 0;
+  display: inline-block;
+  letter-spacing: -0.01em;
+}
+
+.product-card .old-price {
+  text-decoration: line-through;
+  color: #8b8b90 !important;
+  font-size: 14px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.product-card .discount {
+  display: none;
+}
+
+/* ==== Lãi suất trả góp ==== */
+.product-card .installment {
+  font-size: 15px;
+  color: #6e6e73;
+  margin-top: 9px;
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .product-card {
+    padding: 14px 2px 14px 2px;
+    border-radius: 16px;
+  }
+  .product-card img {
+    height: 140px;
+  }
+  .product-card h3 { font-size: 18px; }
+  .rating-stars { font-size: 20px; }
+  .product-card .price { font-size: 19px; }
+}
+
+/* ==== Pagination ==== */
+.pagination {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.pagination a {
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 0 6px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.pagination a:hover {
+  background-color: #eee;
+}
+
+/* ==== Misc ==== */
+.hover-hand {
+  cursor: pointer;
+}
+
+
+
+

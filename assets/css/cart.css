@@ -1,0 +1,268 @@
+.container { 
+  width: 100%; 
+  max-width: 1920px; 
+  margin: 0 auto;
+}
+
+.main-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  user-select: none;
+}
+
+.main-nav {
+  display: flex;
+  gap: 25px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+}
+
+.main-nav a.active {
+  font-weight: bold;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-btn {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cart-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.cart-section h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  border: none;
+  vertical-align: middle;
+  padding: 16px 8px;
+}
+
+.cart-table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.cart-table .product {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+
+.cart-table .product img {
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cart-table .price,
+.cart-table .total {
+  font-weight: 500;
+  color: #333;
+}
+
+/* FIX BUTTON TĂNG GIẢM */
+.cart-table .quantity {
+  padding: 0 !important;
+}
+.quantity-form {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  gap: 0;
+  height: 38px; /* Tăng lên cho dễ click và đều hơn */
+}
+
+.qty-btn {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ff6700;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.qty-btn:focus {
+  outline: none;
+  background: #eee;
+}
+.qty-btn:hover {
+  background-color: #ff6700;
+  color: #fff;
+}
+
+.qty-input {
+  width: 44px;
+  height: 38px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-left: none;
+  border-right: none;
+  vertical-align: middle;
+}
+
+.quantity-form .qty-btn:first-child {
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+}
+.quantity-form .qty-btn:last-child {
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+
+.remove-btn:hover {
+  color: #e74c3c;
+}
+
+.cart-summary {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 16px;
+  background-color: #ffffff;
+}
+
+.cart-summary .summary-item,
+.cart-summary .summary-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  font-size: 1rem;
+}
+
+.cart-summary .summary-item span {
+  color: #555;
+}
+
+.cart-summary .summary-total {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cart-summary hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 0;
+}
+
+.cart-summary .summary-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.cart-summary .btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.cart-summary .btn.checkout {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.cart-summary .btn.checkout:hover {
+  background-color: #333;
+}
+
+.cart-summary .btn.continue {
+  background-color: #fff;
+  color: #000;
+}
+
+.cart-summary .btn.continue:hover {
+  background-color: #f5f5f5;
+}
+
+

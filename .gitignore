@@ -1,0 +1,14 @@
+# Local/runtime files
+.vscode/
+*.log
+__pycache__/
+*.py[cod]
+.phpunit.result.cache
+
+# Local secrets and generated uploads
+.env
+images/product_gallery/
+
+# OS/editor files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,428 @@
+/* Header */
+.container { 
+  width: 100%; 
+  max-width: 1920px; 
+  margin: 0 auto;
+}
+
+.header-nav { 
+  width: 100%; 
+  max-width: 1200px; 
+  margin: auto; 
+}
+
+.tittle {
+  padding: 40px 0;
+}
+
+.tittle-content {
+  text-align: center;
+}
+
+.tittle-content h1 {
+  font-size: 2rem; margin-bottom: 8px;
+}
+
+.tittle-content p { 
+  color: #666; font-size: 14px; 
+}
+
+.blog-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 0;         /* độ cao giống Figma */
+  margin-bottom: 40px;
+}
+
+.filter-btn, .search-box, .sort-box > * {
+  background: #fff;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 46px;            /* cứng chiều cao */
+  padding: 0 20px;
+  border: 1px solid #000;
+  border-radius: 23px;     /* bán kính = height/2 */
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 46px;
+  padding: 0 20px;
+  border: 1px solid #333;
+  border-radius: 23px;
+  z-index: 10;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 100%;
+  background: transparent;
+}
+
+.sort-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;      /* Căn phải */
+  font-size: 14px;
+}
+
+.sort-box select {
+  height: 46px;
+  padding: 0 20px;
+  border: 1px solid #333;
+  border-radius: 23px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* Bố cục sidebar + posts */
+.content-layout {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* SIDEBAR */
+.sidebar {
+  flex: 0 0 20%;
+  align-content: center;
+  text-align: center;
+}
+.sidebar h3 {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li + li {
+  margin-top: 8px;
+}
+.sidebar a {
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: background .2s;
+}
+.sidebar a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;             
+  padding: 30px;         
+  background-color: #f9f9f9; 
+}
+
+.post-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  
+  /* đảm bảo cấu trúc flex cho badge+content+read-more */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  /* xóa hết box-shadow, padding dày, text-align:center */
+  box-shadow: none;
+  padding: 12px;
+  text-align: left;
+  color: inherit; 
+}
+
+/* ẢNH GIỮ NHƯ TRƯỚC */
+.post-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.post-card .badge {
+  background: #000;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin: 12px 0 8px 0;
+  display: inline-block;
+  width: auto;
+}
+
+.post-card h4 {
+  margin: 0 0 4px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.post-card .date {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.post-card .excerpt {
+  flex: 1;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.post-card .read-more {
+  font-size: 0.9rem;
+  color: #3f51b5;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.post-card .read-more:hover {
+  text-decoration: underline;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between; /* chia đều khoảng trống */
+  align-items: center;
+  flex-wrap: wrap;                /* xuống dòng trên mobile */
+  gap: 40px;                       /* khoảng cách giữa các item */
+  max-width: 1200px;               /* giới hạn độ rộng container */
+  margin: 60px auto;               /* canh giữa */
+  padding: 0 20px;                 /* padding hai bên */
+  box-sizing: border-box;
+}
+
+.feature {
+  flex: 1 1 200px;       /* co giãn, ít nhất 200px rộng */
+  text-align: center;
+}
+
+.feature img {
+  width: 48px;           /* hoặc tuỳ chỉnh kích thước icon */
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.feature h4 {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.feature p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+/* ===== 1. PROMO SLIDER ===== */
+.promo-slider {
+  margin: 60px auto;      
+  width: 90%;             
+  max-width: 1200px;     
+  box-sizing: border-box;
+}
+
+/* khung ẩn overflow */
+.slider-window {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  border-radius: 8px;     
+}
+
+/* track bỏ width cứng, để flex tự điều chỉnh */
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* mỗi slide vừa container */
+.slide {
+  flex: 0 0 100%;        
+  box-sizing: border-box;
+}
+
+/* ảnh fill slide */
+.slide img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.slider-nav button {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0 20px;
+}
+.slider-nav .dots {
+  display: flex;
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+.slider-nav .dots li {
+  width: 24px;
+  text-align: center;
+  cursor: pointer;
+  opacity: .5;
+  transition: opacity .2s;
+}
+.slider-nav .dots li.active,
+.slider-nav .dots li:hover {
+  opacity: 1;
+}
+
+/* ===== 2. INSTAGRAM GRID ===== */
+.instagram-section {
+  text-align: center;
+  padding: 60px 0 20px;
+}
+.instagram-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 24px;
+}
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.insta-grid a img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+.insta-icon {
+  display: block;        
+  margin: 24px auto;     
+  width: 48px;           
+  text-align: center;
+}
+
+/* 2) Ép ảnh nhỏ lại vừa khung cha */
+.insta-icon img {
+  display: block;        
+  width: 100%;           
+  height: auto;
+}
+
+/* ===== 3. NEWSLETTER ===== */
+.newsletter {
+  text-align: center;
+  padding: 60px 0;
+}
+.newsletter h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.subscribe-form .input-group {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  overflow: hidden;
+  max-width: 400px;
+  width: 80%;
+}
+.subscribe-form .input-group .icon {
+  padding: 8px 12px;
+}
+.subscribe-form .input-group input {
+  flex: 1;
+  border: none;
+  padding: 8px 12px;
+  font-size: 1rem;
+  outline: none;
+}
+.subscribe-form button {
+  display: block;
+  margin: 16px auto 0;
+  padding: 12px 24px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* ===== 4. FOOTER ===== */
+.main-footer {
+  text-align: center;
+  padding: 40px 0;
+  background: #f5f5f5;
+}
+.main-footer .footer-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.main-footer .footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+.main-footer .footer-nav a {
+  color: #555;
+  text-decoration: none;
+  font-size: .9rem;
+}
+.main-footer .footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.input-group .icon {
+  width: 20px;
+  height: 20px;
+  padding: 0 12px 0 8px;
+  opacity: 0.85;
+}
+
+
+
+
+
+
+
+
+
+
+
